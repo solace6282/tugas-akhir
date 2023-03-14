@@ -89,7 +89,7 @@ max_len = 10
 # }[dataset_name]
 max_len_a = 1.2
 
-print("The number of tokens in tokenizer ", len(tokenizer.decoder))
+print("Token in tokenizer: ", tokenizer.decoder)
 
 bos_token_id = 0  #
 eos_token_id = 1  #
